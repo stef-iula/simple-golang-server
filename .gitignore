@@ -1,6 +1,6 @@
 .vscode
 .DS_Store
 
-server/bin/**
-server/pkg/**
-server/src/github.com/**
+bin/**
+pkg/**
+src/github.com/**

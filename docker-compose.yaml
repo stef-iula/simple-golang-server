@@ -1,0 +1,13 @@
+version: "3"
+services:
+  web-server:
+    build:
+      context: .
+      args:
+        APP_NAME: "web-server"
+    environment:
+      - BUILD_ENV=
+    command: ["./web-server"]
+    ports:
+      - "8080:8080"
+    restart: "always"
